@@ -1,0 +1,8 @@
+https://protocoderspoint.com/flutter-local-auth-fingerprint-login/
+
+1.LocalAuthentication, This class is provided in local_auth package, this will help us in getting access to Local Authentication of the device
+2.By using this Class instance object we can make use of different properties such as:
+
+canCheckBiometrics: This will return true is Biometric sensor is available.
+getAvailableBiometrics: This will give list of Biometric finger print.
+authenticationWithBiometrics: This will invoke a pop up, where it will ask you to “Scan for fingerprint/faceID”, then, if the authentication get matched then you are been authorized or you are unauthorized.
